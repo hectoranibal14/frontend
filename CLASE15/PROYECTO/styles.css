@@ -1,0 +1,52 @@
+
+
+#message{
+    color:white;
+    text-align: center
+}
+
+.square{
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    margin: 1.5%;
+    background: white;
+	border-radius: 15%;
+	
+}
+
+.container{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #232323
+}
+
+
+h1{
+    color: white;
+    background: steelblue;
+    text-align: center;
+}
+
+.oculto{
+    background-color: #232323
+}
+
+#stripe{
+    text-align: center;
+    height: 30px;
+}
+
+.selected {
+    color: white;
+    background: red;
+}
+
+button {
+	height: 100%;
+}

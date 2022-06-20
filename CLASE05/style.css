@@ -1,0 +1,21 @@
+body{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h1 {
+    color: red;
+    margin-top: 75px;
+    top: 75px;
+}
+
+.navbar {
+    position: fixed;
+    width: 97%;
+    top: 12px;
+}
+
+.col {
+    background-color: aquamarine;
+    border: 2px solid black;
+}

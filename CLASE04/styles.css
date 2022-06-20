@@ -1,0 +1,24 @@
+/* el universal aplica a todos y cada uno de los elementos del body */
+* {
+    border: 2px solid red;
+    color: blue;
+}
+
+/* aplica sobre los elementos p que esten dentro de div */
+div p {
+    background-color: cadetblue;
+}
+
+/* aplica sobre los elementos class segundo que esten dentro de div */
+div .segundo {
+    background-color: yellow;
+}
+
+/* selector de hijo aplica sobre los elementos que estén dentro del div pero inmediatamente debajo */
+div > p {
+    background-color: green;
+}
+
+h1, li, div {
+    font-size: 30px;
+}

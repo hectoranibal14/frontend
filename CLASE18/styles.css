@@ -1,0 +1,18 @@
+body{
+    background-color: steelblue;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    border: 2px black dashed;
+}
+
+.boton{
+    border-radius: 5px;
+}

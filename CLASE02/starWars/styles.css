@@ -1,0 +1,50 @@
+.imperio {
+    background-color: red;
+  }
+
+.rebeldes {
+    background-color: blue;
+  }
+
+.apoyo {
+    text-align: center;
+}
+
+.naves {
+    text-transform: uppercase;
+}
+
+.droides {
+    display: block;
+    margin: auto;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png)
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+#vader {
+    font-size: 40px;
+  }
+
+#luke {
+    font-style:italic;
+}
+
+#soldados {
+    border-style: dashed solid;
+    letter-spacing: 10px;
+}
+
+#textoBlanco {
+    color: white;
+    text-shadow: 2px 4px 10px yellow;;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaPet</title>
+</head>
+<body>
+    <h1>Bienvenido a tu InstaPet</h1>
+    <p>Subscribe a tu mascota para recibir promociones de aliemtos</p>
+    <br>
+    <br>
+    <form action="" method=""> <!-- action es la dirección a donde lo mandamos; method es post si enviamos o get si recibimos-->
+        <label for="nombre">Nombre de la mascota: </label>
+        <input type="text" name="nombre" placeholder="Ingrese el nombre" id="nombre">
+        <br>
+        <label>Especie: 
+            <select name="especie">
+                <option value="dog">Perro</option>
+                <option value="cat">Gato</option>
+                <option value="turtle">Tortuga</option>
+            </select>
+        </label>
+        <br>
+        <label for="fecha">Fecha de nacimiento: </label>
+        <input type="date" name="fecha" placeholder="Fecha de nacimiento id="fecha">
+        <br>
+        <label for="edad">Edad de la mascota: </label>
+        <input type="number" name="edad" placeholder="Edad de la mascota" id="edad">
+        <br>
+        <label for="e-mail">Email: </label>
+        <input type="email" name="correo" placeholder="Ingrese email" id="e-mail">
+        <br>
+        <label for="contraseña">Password: </label>
+        <input type="password" name="contraseña" placeholder="Ingrese contraseña" id="contraseña">
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
